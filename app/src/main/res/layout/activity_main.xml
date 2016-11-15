@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.huanglei.fangshanxing.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_a"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/composer_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_c"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/composer_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_e"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/composer_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_p"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/composer_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_t"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/composer_thought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_h"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/composer_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_l"
+
+        android:src="@drawable/composer_button_normal"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+
+
+
+</FrameLayout>
